@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ebtesam.screenapp.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/churros"
+        android:scaleType="centerCrop"
+        android:id="@+id/img1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Churros"
+        android:allowUndo="true"
+        android:textSize="100sp"
+        android:textColor="@android:color/white"
+android:layout_centerHorizontal="true"
+        android:paddingTop="100dp"
+       android:id="@+id/t1"
+     />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img1"
+        android:id="@+id/t2"
+        android:text="Come to tast the most delicios Churros in the word"
+        android:textSize="25sp"
+        android:background="#BDBDBD"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/t2"
+        android:id="@+id/t3"
+        android:background="#757575"
+        android:textColor="@android:color/white"/>
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/phone"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="map"
+        android:text="Jeddah"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:layout_above="@id/img2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12345678"
+        android:textSize="22sp"
+        android:id="@+id/t4"
+        android:autoLink="phone"
+        android:textColor="@android:color/white"
+        android:layout_toRightOf="@id/img2"
+        android:layout_alignParentBottom="true"
+        />
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/t4"
+        android:src="@drawable/email"
+        android:paddingLeft="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1234@gm.com"
+        android:textSize="22sp"
+        android:autoLink="email"
+        android:textColor="@android:color/white"
+        android:layout_toRightOf="@id/img3"
+        android:layout_alignParentBottom="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginRight="10dp"
+        android:text="+"
+        android:textSize="50sp"/>
+
+
+</RelativeLayout>
